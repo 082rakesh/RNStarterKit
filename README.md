@@ -1,8 +1,22 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# 👋 Intro
+
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+This project is super helpful to kick-start your next project, as it provides all the common tools that you may be looking for, ready-to-go tools. Specifically:
+
+1. Starter project with TypeScript
+2. Navigation (Used React-Navigation to implement stack and tab navigation)
+3. Redux ToolKit setup
+4. Redux-Thunk Middleware
+5. API layer implemented using Axio, intercepted, etc.
+6. Themes (Dark Theme and default using Navigation)
+7. basic UI Component
+8. Typography, Fonts Colot Palette
+9. Pre-commit hooks integrated
+
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till the "Creating a new application" step, before proceeding.
 
 ## Step 1: Start the Metro Server
 
@@ -68,12 +82,3 @@ You've successfully run and modified your React Native App. :partying_face:
 
 If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
