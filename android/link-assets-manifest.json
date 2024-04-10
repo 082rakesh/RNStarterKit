@@ -1,0 +1,101 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Acumin-BdItPro.ttf",
+      "sha1": "d6f5998eb366874a32c1b37dd58aee1d891992fb"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Black Italic.ttf",
+      "sha1": "8d6f0215ec661bbf10269b4232719b5c9787831e"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Black.ttf",
+      "sha1": "e4890c5e0db44986644814c671c45dcb92686d62"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Bold Italic.ttf",
+      "sha1": "b8f947b27ff463e9f18efec2cc9c5678e4e76c58"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Bold.ttf",
+      "sha1": "207d171b7504f66c8894da6b378f59114f01e954"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Extralight Italic.ttf",
+      "sha1": "1b9e95e66ffaa3e2e044f4a1993cc31273a7dc00"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Extralight.ttf",
+      "sha1": "5fe49c7fc7da5a34d73f49f27e52b5e8ac5f72ee"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Light Italic.ttf",
+      "sha1": "a0689486d99703df480b1857e2eacb094b8fbfbf"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Light.ttf",
+      "sha1": "1415149f9e3b0f362bfb951ea1b79293ae67249d"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Medium Italic.ttf",
+      "sha1": "5ba73bed1e74690c5767d0686348c4dafec3c9e2"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Medium.ttf",
+      "sha1": "4040a1c57d5fad29ab2a44d742075659a5e0cfb5"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Regular Italic.ttf",
+      "sha1": "45a43944c0cc1f322579924f4152bf47f29f3f30"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Regular.ttf",
+      "sha1": "647b86f9695a92f30a3e78496f5c62eba57768ef"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Semibold Italic.ttf",
+      "sha1": "b02073ceaf969196400ddc7db2a361bda37da949"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Semibold.ttf",
+      "sha1": "d23dd3e3d1ebe09ed347c3d68c54d0e2b1c496ff"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Super Italic.ttf",
+      "sha1": "b82cb57c9ba74d3a393a03b4d4d40236a0065cd8"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Super.ttf",
+      "sha1": "51d825174a5b3672ba76e53660de12a0c46a17b9"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Thin Italic.ttf",
+      "sha1": "0c2ced2cd720b7adef00d75b00abb4a2e69397b2"
+    },
+    {
+      "path": "src/assets/fonts/Graphik-Thin.ttf",
+      "sha1": "39478b752146d7c97f4ec354f3d07c214ec2eeed"
+    },
+    {
+      "path": "src/assets/fonts/Kings-Regular.ttf",
+      "sha1": "b67b4c4e108b62cd718e6e5b8a99bf6235fffd4f"
+    },
+    {
+      "path": "src/assets/fonts/VesperLibre-Black.ttf",
+      "sha1": "b63497f63286454ad67a29e14a21e08e8f37f2c1"
+    },
+    {
+      "path": "src/assets/fonts/VesperLibre-Bold.ttf",
+      "sha1": "f8e31b2da4200ae3fd97e37c1613769c6fbf53ea"
+    },
+    {
+      "path": "src/assets/fonts/VesperLibre-Medium.ttf",
+      "sha1": "ee7bebfe636c6e805bbb4e8423a529f5789fc83a"
+    },
+    {
+      "path": "src/assets/fonts/VesperLibre-Regular.ttf",
+      "sha1": "4ba484adea079fa4b89a4b651ce3d1eb88025ffe"
+    }
+  ]
+}
