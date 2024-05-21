@@ -1,21 +1,21 @@
-import {Fonts} from './Fonts';
+import { Fonts } from './Fonts';
 
 const primary = {
-  fontFamily: Fonts.secondary,
-  fontSize: 16,
+	fontFamily: Fonts.primary,
+	fontSize: 16,
 };
 
 export const Typography = {
-  fontStyle: {
-    primary,
-    secondary: {
-      ...primary,
-      fontSize: 14,
-    },
-    heading: {
-      ...primary,
-      fontSize: 24,
-      fontWeight: '700',
-    },
-  },
+	fontStyle: {
+		primary,
+		secondary: {
+			...primary,
+			fontSize: 14,
+		},
+		heading: {
+			...primary,
+			fontSize: 24,
+			fontWeight: '700',
+		},
+	},
 };

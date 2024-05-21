@@ -7,7 +7,6 @@ import {GenericResponse} from '../http/GenericResponse';
 
 export const useRestrauntsList = () => {
   const [restrauntList, setRestrauntList] = useState<Restaurant[]>([]);
-  // const [isError, setIsError] = useState(false);
 
   useEffect(() => {
     const getRestraunts = async () => {
@@ -22,9 +21,7 @@ export const useRestrauntsList = () => {
             ?.restaurants;
         setRestrauntList(resturants);
       } else {
-        // setIsError(true);
         console.log(`response.isSuccess: ${response.isSuccess}`);
-        // return isError;
       }
     };
 

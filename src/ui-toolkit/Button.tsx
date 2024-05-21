@@ -41,4 +41,7 @@ const styles = StyleSheet.create({
   },
 });
 
+const buttonStyle = StyleSheet.compose({
+  
+})
 export default  Button;
