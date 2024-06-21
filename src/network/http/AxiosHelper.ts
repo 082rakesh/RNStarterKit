@@ -12,43 +12,43 @@ import { AxiosError } from 'axios';
 // export const apiUrl = axios.create({baseURL: BASE_URL});
 export const axioInstance: AxiosInstance = axios.create(); // removed base url because 2 different API set.
 
-axioInstance.interceptors.request.use(
-	(config) => {
-		// Logger.debug('**************REQUEST[Interceptor]**********************');
-		// Logger.debug(`RequestHeaders:${config.headers}`);
-		// Logger.debug(`RequestBody:${config.params}`);
-		// Logger.debug(`RequestBody:${config.url}`);
-		// Logger.debug('*************************************************');
-		config.metadata = { startTime: new Date() };
-		return config;
-	},
-	(error) => {
-		return Promise.reject(error);
-	}
-);
+// axioInstance.interceptors.request.use(
+// 	(config) => {
+// 		// Logger.debug('**************REQUEST[Interceptor]**********************');
+// 		// Logger.debug(`RequestHeaders:${config.headers}`);
+// 		// Logger.debug(`RequestBody:${config.params}`);
+// 		// Logger.debug(`RequestBody:${config.url}`);
+// 		// Logger.debug('*************************************************');
+// 		config.metadata = { startTime: new Date() };
+// 		return config;
+// 	},
+// 	(error) => {
+// 		return Promise.reject(error);
+// 	}
+// );
 
 // // add response interceptor
-axioInstance.interceptors.response.use(
-	(response) => {
-		const endTime = new Date();
-		const duration = endTime - response.config.metadata.startTime;
-		// Logger.debug('**************RESPONSE START**********************');
-		// Logger.debug(
-		// 	`Response Status:${response.status} Response Status: ${response.config.method}`
-		// );
-		// Logger.debug(`Request to ${response.config.url} took ${duration} ms`);
-		// Logger.debug('*****************RESPONSE END**********************');
+// axioInstance.interceptors.response.use(
+// 	(response) => {
+// 		const endTime = new Date();
+// 		const duration = endTime - response.config.metadata.startTime;
+// 		// Logger.debug('**************RESPONSE START**********************');
+// 		// Logger.debug(
+// 		// 	`Response Status:${response.status} Response Status: ${response.config.method}`
+// 		// );
+// 		// Logger.debug(`Request to ${response.config.url} took ${duration} ms`);
+// 		// Logger.debug('*****************RESPONSE END**********************');
 
-		return response;
-	},
-	(error) => {
-		const err = error as AxiosError;
-		const status = error.response ? error.response.status : null;
-		// Logger.debug('**************Error RESPONSE[Interceptor]***************');
-		// Logger.debug(
-		// 	`Error response: ${err.code}: ${err.message}: ${err.status} : status is: ${status}`
-		// );
+// 		return response;
+// 	},
+// 	(error) => {
+// 		const err = error as AxiosError;
+// 		const status = error.response ? error.response.status : null;
+// 		// Logger.debug('**************Error RESPONSE[Interceptor]***************');
+// 		// Logger.debug(
+// 		// 	`Error response: ${err.code}: ${err.message}: ${err.status} : status is: ${status}`
+// 		// );
 
-		return Promise.reject(error);
-	}
-);
+// 		return Promise.reject(error);
+// 	}
+// );
