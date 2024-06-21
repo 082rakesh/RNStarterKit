@@ -5,18 +5,12 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/jobs-steps/#jobs-overview & https://circleci.com/docs/configuration-reference/#jobs
 jobs:
-  build:
+  build-and-test:
     macos:
-      xcode: 15.0.1
+      xcode: 15.3.0
     working_directory: ~/repor #https://github.com/082rakesh/RNStarterKit.git
-       docker:
-          # Specify the version you desire here
-          # See: https://circleci.com/developer/images/image/cimg/base
-          - image:  circleci/android:api-29-node8-alpha
-        environment:
-          JVM_OPTS: -Xmx3200m
-        steps:
-          - checkout
+    steps:
+      - checkout
           - restore_cache:
              keys:
               - v1-dependencies-{{ checksum "package.json" }}
